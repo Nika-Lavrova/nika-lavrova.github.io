@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT serif", sans-serif;
+    color: black;
+    line-height: 1;
+    max-height: 1e6em;
+    background-color: #F2F2F2;
+    font-size: 16px;
+}
+
+main {
+    margin: 70px 250px;
+    background-color: #fff;
+}
+
+section {
+    padding: 50px 30px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(36, 175, 48);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navigation li:not(#last)::after {
+    content: " •";
+    color: rgb(36, 175, 48);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: Roboto, sans-serif;
+}
+
+.main_photo {
+    text-align: center;
+}
+
+p {
+    line-height: 33px;
+}
+
+.ingredients li {
+    line-height: 33px;
+}
+
+
+.BGU {
+    margin: auto;
+    width: 60%;
+}
+
+.BGU td, th {
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+.BGU td {
+    font-size: 8px;
+}
+
+.kbgu {
+    letter-spacing: 0.8px;
+}
+
+.gr {
+    font-size: 9px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+.num {
+    font-family: "PT Serif", serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+caption {
+    margin-top: 15px;
+    caption-side: bottom;
+    text-align: right;
+
+    font-style: italic;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.padding-left {
+    padding-left: 80px;
+}
+
+.instruction {
+    border-collapse: separate;
+    border-spacing: 0 50px;
+}
